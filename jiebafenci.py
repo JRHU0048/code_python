@@ -1,6 +1,6 @@
 import jieba.posseg as pseg
 
-text = "希望小凡天天开心，永远没烦恼，早日当院士"
+text = "希望小胡天天开心，永远没烦恼，早日当院士"
 words = pseg.cut(text)
 
 for word, pos in words:
